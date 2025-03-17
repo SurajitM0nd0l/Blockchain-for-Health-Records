@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Records DApp</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Blockchain Health Records</h2>
+        
+        <button onclick="connectWallet()">Connect Wallet</button>
+
+        <h3>Add Health Record</h3>
+        <input type="text" id="recordData" placeholder="Enter Health Record">
+        <button onclick="addRecord()">Add Record</button>
+
+        <h3>Grant Access</h3>
+        <input type="text" id="doctorAddress" placeholder="Doctor Wallet Address">
+        <button onclick="grantAccess()">Grant Access</button>
+
+        <h3>Revoke Access</h3>
+        <input type="text" id="revokeAddress" placeholder="Doctor Wallet Address">
+        <button onclick="revokeAccess()">Revoke Access</button>
+
+        <h3>View Records</h3>
+        <input type="text" id="patientAddress" placeholder="Patient Wallet Address">
+        <button onclick="getRecords()">Get Records</button>
+
+        <p id="output"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
