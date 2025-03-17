@@ -58,6 +58,7 @@ The vision of DHRM is to **revolutionize healthcare data management** by providi
 
 ## Connect to MetaMask
 <img width="1470" alt="Screenshot 2025-03-17 at 3 37 15 PM" src="https://github.com/user-attachments/assets/84974436-4989-409e-bcd8-178022825146" />
+---
 ## Add Health Record
 <img width="1470" alt="Screenshot 2025-03-17 at 3 30 38 PM" src="https://github.com/user-attachments/assets/8dd76876-fe0f-4217-8630-67cc95a71b4e" />
 
